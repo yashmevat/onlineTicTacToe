@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div id="users">
+
+        <p id="userCont">user : <span id="user"></span></p>
+        <p id="oppNameCont">opponent : <span id="oppName"></span></p>
+    </div>
+    <br>
+
+    <p id="valueCont">You Are Playing As : <span id="value"></span></p>
+
+    <br>
+    <p id="whoseTurn">X's Turn </p>
+    <div id="search">
+        <p id="entername">
+              Enter Your Name
+        </p>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" autocomplete="off">
+    </div>
+
+    <button id="find">Search For User</button>
+    <img src="loading.gif" alt="" id="loading">
+
+    <div id="bigCont" class="bigCont">
+        <div class="cont">
+            <button class="btn" id="btn1"></button>
+            <button class="btn" id="btn2"></button>
+            <button class="btn" id="btn3"></button>
+            <button class="btn" id="btn4"></button>
+            <button class="btn" id="btn5"></button>
+            <button class="btn" id="btn6"></button>
+            <button class="btn" id="btn7"></button>
+            <button class="btn" id="btn8"></button>
+            <button class="btn" id="btn9"></button>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 7rem;
+    color: green;
+    margin-top: 3rem;
+}
+#users{
+    display: flex;
+    justify-content: space-around;
+}
+#userCont{
+    font-size: 2rem;
+}
+#oppNameCont{
+    font-size: 2rem;
+}
+
+#valueCont{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+#whoseTurn{
+    text-align: center;
+    font-size:2rem;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+#search{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#entername{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+#name{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width:40rem;
+    border:4px solid black;
+}
+#loading
+{
+    display: block;
+    margin: 0 auto;
+    width: 2rem;
+    text-align: center;
+}
+#find{
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.bigCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 20rem;
+    place-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap:0.3rem;
+}
+.btn{
+    padding: 3rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 713px) {
+    h1{
+        text-align: center;
+        font-size: 3rem;
+        color: green;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    #name{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width:10rem;
+        border:4px solid black;
+    }
+
+    #userCont{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    #oppNameCont{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .btn{
+        padding: 2rem;
+        cursor: pointer;
+        font-size: 3rem;
+    }
+    #whoseTurn{
+        text-align: center;
+        font-size:1rem;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+    #valueCont{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 3rem;
+    }
+  }
