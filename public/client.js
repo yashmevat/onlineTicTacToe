@@ -6,7 +6,6 @@ document.getElementById("valueCont").style.display="none"
 document.getElementById("whoseTurn").style.display="none"
 var Name;
 let socket = io();
-console.log(socket)
 document.getElementById("find").addEventListener("click",()=>{
   Name = document.getElementById("name").value;
   if(Name==null || Name==""){
@@ -50,7 +49,6 @@ document.querySelectorAll(".btn").forEach((e)=>{
   e.addEventListener("click",function(){
     let value = document.getElementById("value").innerText;
     e.innerText = value;
-    console.log(e.id)
     socket.emit("playing",{value : value,id : e.id, Name : Name})
   })
 })
