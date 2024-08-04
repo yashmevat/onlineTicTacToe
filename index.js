@@ -47,7 +47,6 @@ io.on("connection",(socket)=>{
     socket.on("playing",(e)=>{
         if(e.value=="X"){
             let objToChange = playingArr.find(x=>x.p1.p1name === e.Name);
-            console.log(objToChange)
             objToChange.p1.p1move = e.id;
             objToChange.sum++;
 
