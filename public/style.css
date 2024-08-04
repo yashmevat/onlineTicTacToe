@@ -89,7 +89,7 @@ h1{
 .btn{
     padding: 3rem;
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 713px) {
@@ -120,7 +120,7 @@ h1{
     .btn{
         padding: 2rem;
         cursor: pointer;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     #whoseTurn{
         text-align: center;
